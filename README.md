@@ -22,6 +22,7 @@ forever needs to be installed as global (npm install -g forever)
 
 Access to a MQTT broker is required (localhost assumed - change if other)
 
-Use web acces to configure table. http://[your ip]:8087
+Use web acces to configure table.
+- browse to http://[your ip]:8087
 
-port can be changed if required
+port can be changed if required (default is 8087);
