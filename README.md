@@ -9,11 +9,8 @@ if the value is changed, the topic an value will be published to the MQTT broker
 Run the bash file run.sh. This will do the following:
 
 - copy the source files to /server/ow2mqtt
-
 - copy the autostart file to /etc/init.d
-
 - register the autostart file
-
 - start ow2mqtt and ow2mqtt-web as services
 
 # Requirements
