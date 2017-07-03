@@ -6,6 +6,9 @@ The gateway will check the topics in the tabel and get the value of the configur
 if the value is changed, the topic an value will be published to the MQTT broker.
 
 # installation
+
+This works with Raspberry pi
+
 Run the bash file run.sh. This will do the following:
 
 - copy the source files to /server/ow2mqtt
