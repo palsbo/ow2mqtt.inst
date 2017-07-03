@@ -5,6 +5,7 @@ The gateway will check the topics in the tabel and get the value of the configur
 
 if the value is changed, the topic an value will be published to the MQTT broker.
 
+If a field needs to be changed on a 1wire device, publish a topic ending with "/cmd" and the gateway will write the value to the OWFS field registered in the table.
 # installation
 
 This works with Raspberry pi
